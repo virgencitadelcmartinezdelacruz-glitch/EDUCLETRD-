@@ -668,8 +668,8 @@ export default function AdminControlPanel() {
 
           <div className="flex flex-wrap justify-between items-center text-xs text-slate-600 bg-slate-100 p-4 rounded-xl border border-slate-200">
             <div>📊 Estudiantes en Sección: <strong className="text-slate-900">{students.length}</strong></div>
-            <div>✅ Aprobados (>=70): <strong className="text-emerald-700">{approvedCount}</strong></div>
-            <div>⚠️ En Proceso (<70): <strong className="text-amber-700">{processCount}</strong></div>
+            <div>✅ Aprobados (&ge;70): <strong className="text-emerald-700">{approvedCount}</strong></div>
+<div>⚠️ En Proceso (&lt;70): <strong className="text-amber-700">{processCount}</strong></div>
           </div>
         </div>
       )}
