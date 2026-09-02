@@ -670,9 +670,3 @@ export default function AdminControlPanel() {
             <div>📊 Estudiantes en Sección: <strong className="text-slate-900">{students.length}</strong></div>
             <div>✅ Aprobados (&ge;70): <strong className="text-emerald-700">{approvedCount}</strong></div>
 <div>⚠️ En Proceso (&lt;70): <strong className="text-amber-700">{processCount}</strong></div>
-          </div>
-        </div>
-      )}
-    </div>
-  );
-}
