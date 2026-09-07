@@ -1,0 +1,12 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // Configuración opcional para optimizar compilaciones y manejo de paquetes
+  reactStrictMode: true,
+  
+  // Si manejas imágenes externas o avatares de usuarios, puedes agregarlos aquí
+  images: {
+    domains: [],
+  },
+};
+
+module.exports = nextConfig;
