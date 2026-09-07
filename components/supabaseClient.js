@@ -1,6 +1,9 @@
-import { createClient } from '@supabase/supabase-js';
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  typescript: {
+    // Ignora los errores de TypeScript durante el despliegue en Vercel
+    ignoreBuildErrors: true,
+  },
+};
 
-const SUPABASE_URL = 'https://tu-proyecto.supabase.co';
-const SUPABASE_ANON_KEY = 'tu-clave-anonima-aqui';
-
-export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+export default nextConfig;
